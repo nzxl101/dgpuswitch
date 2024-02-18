@@ -1,0 +1,21 @@
+{
+    "name": "dgpuswitch",
+    "version": "1.0.0",
+    "description": "Simple app to cycle Nvidia (preferably) dGPU and save some battery power!",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js",
+        "build": "nexe app.js -t windows-x64-18.14.0 -o dGPUSwitch --remote https://github.com/urbdyn/nexe_builds/releases/download/0.3.0/"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "consola": "^3.2.3",
+        "powershell": "^2.3.2"
+    },
+    "devDependencies": {
+        "nexe": "^4.0.0-rc.4",
+        "prettier": "^3.2.5"
+    }
+}
