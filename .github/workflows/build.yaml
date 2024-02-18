@@ -17,5 +17,5 @@ jobs:
             - name: Upload app
               uses: actions/upload-artifact@v3
               with:
-                  name: Binary
+                  name: windows-x64-18.14.0
                   path: dGPUSwitch.exe
